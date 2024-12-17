@@ -1,0 +1,92 @@
+.random-movie {
+    position: relative;
+    color: white;
+  }
+  
+  .random-movie .overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+  
+  .random-movie .content {
+    z-index: 2;
+    padding: 1rem;
+  }
+  
+  .text-shadow {
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+  }
+  
+  .movie-card {
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .movie-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card-link {
+    text-decoration: none;
+    color: inherit;
+  }
+  /* إزالة الخلفية من الأزرار */
+.btn-secondary {
+    background-color: transparent;
+    /* border: 1px solid #ccc; */
+    color: #e8e8e8;
+  }
+  
+  .btn-secondary:hover {
+    background-color: #f0f0f0;
+    border-color: #888;
+  }
+  
+  .movie-card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* تصنيف التصنيفات لتكون بجانب بعضها */
+  .collapse .d-flex {
+    flex-wrap: wrap;
+    gap: 10px; /* المسافة بين الأزرار */
+  }
+  /* زر البحث */
+.search-btn {
+    background-color: #800020; /* اللون الأحمر الدموي */
+    color: white;
+  }
+  
+  .search-btn:hover {
+    background-color: #660018; /* لون أحمر دموي غامق عند المرور بالماوس */
+    color: white;
+  }
+  
+  /* زر التصنيفات */
+  .genre-btn {
+    background-color: #800020; /* اللون الأحمر الدموي */
+    color: white;
+  }
+  
+  .genre-btn:hover {
+    background-color: #660018; /* لون أحمر دموي غامق عند المرور بالماوس */
+    color: white;
+  }
+  .favorite-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: transparent;
+    border: none;
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .favorite-btn:hover {
+    color: red;
+  }
+  .home-btn {
+    background-color: #800020; /* اللون الأحمر الدموي */
+    color: white;
+  }
